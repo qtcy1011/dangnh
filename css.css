@@ -1,0 +1,239 @@
+.container{
+    width: 900px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+    }
+    
+    header{
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+    header .top-right{
+        width: 380px;
+        height: 40px;
+        background-color: orangered;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-bottom-left-radius: 30px;
+        font-variant: small-caps;
+        text-align: center;
+    }
+    header .top-right a{
+        text-decoration: none;
+        font-size: 15pt;
+        color: white;
+        line-height: 40px;
+        padding: 5px;
+    }
+    header .top-right a:hover{
+        text-decoration: underline;
+        font-weight: bold;
+    
+    }
+    header .company-info{
+        width: 300px;
+        height: 50px;
+        position: absolute;
+        bottom: 20px;
+        left: 15px;
+    }
+    header .company-info h1{
+        margin: 0;
+        padding: 0;
+        font-variant: small-caps;
+        color: white;
+        font-size: 30px;
+        border-bottom: 1px dotted red;
+        text-shadow: 0 0 5px orangered;
+    }
+    header .company-info h3{
+        margin: 0;
+        padding: 0;
+        font-variant: small-caps;
+        color: orangered;
+        letter-spacing: 3px;    
+    }
+    nav{
+        width: 100%;
+        height: 50px;
+        
+    }
+    /*
+    nav>a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    font-variant:small-caps;
+    margin:0 10px;
+    font-size: 20pt;
+    }
+    nav>a:hover{
+        color: yellow;
+        text-decoration: underline;
+    }
+    */
+    article{
+        width: 70%;
+        height: 562px;
+        background-color: white;
+        box-shadow: 0 0 5px grey;
+        margin: 5px;
+        float: left;
+    }
+    
+    aside{
+        width: 29%;
+        height: 450px;
+        background-color: white;
+        float: right;
+        font-size: 18pt;
+    }
+    footer{
+        clear: both;
+        width: 100%;
+        height: 90px;
+        line-height:100px;
+        text-align: center;
+        font-variant: small-caps;
+        color: white;
+        font-weight: bold;
+        background-color: navy;
+        border-top: 15px solid orangered;
+    }
+    iframe[name=page]{
+        width: 100%;
+        min-height: 400px;
+    }
+    
+    ul.vmenu{
+        list-style-type: none;
+        padding:0 pixel;
+        margin: 5 pixel;
+        border-radius:5 px;
+        box-shadow: 0 0 5px gray;
+    }
+    ul.vmenu>li{
+    border-bottom: 1px dotted orangered;
+    }
+    
+    ul.vmenu>li>a{
+        text-decoration: none;
+        line-height: 50px;
+        font-variant: small-caps;
+        color: orangered;
+        padding-left: 20px;
+        background: url('img/circle_12196856.png') no-repeat left center;
+    }
+    ul.vmenu>li>a:hover{
+    text-decoration: underline;
+    color: red;
+    display: block;
+    background: url('img/right_7763686.png')no-repeat left center;
+    background-color: orange;
+    }
+    .col-25{
+        width: 24%;
+        float: left;
+        margin: 5px 6px;
+    }
+    .prod{
+        border-radius: 10px;
+        box-shadow: 0 0 5px grey;
+        height: 100%;
+        text-align: center;
+        padding: 5px;
+        position: relative;
+    }
+    .prod> .name{
+        font-variant: small-caps;
+        color: orangered;
+    }
+    .prod> .image{
+        max-width: 98%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .prod> .price{
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+        font-size: 25px;
+        color: orange;
+        font-family: Impact;
+    }
+    .prod> .icons{
+        position: absolute;
+        right: 15px;
+        bottom: 5px;
+        width: 25px;
+    }
+    .prod> .new-icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .menu{
+        background-color: orangered;
+        text-align: center;
+        font-variant: small-caps;
+        font-size: large;
+    }
+    .menu >ul{
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .menu>ul>li{
+        display:inline-block;
+        line-height: 50px;
+        width: 18%;
+        font-size: large;
+    }
+    .menu a{
+        text-decoration: none;
+        font-size: 20pt;
+        color: white;
+        display: block;
+    }
+    .menu a:hover{
+        background-color:white;
+        text-decoration: underline;
+        color: red;
+        border-radius: 10px;
+    }
+    .menu li{
+        position: relative;
+    }
+    .sub-menu{
+        position: absolute;
+        background-color: white;
+        width: 88%;
+        list-style-type: none;
+        display: none;
+    }
+    .sub-menu >li{
+        padding: 0;
+        margin-left: -34px;
+    }
+    .menu li:hover .sub-menu{
+        display: block;
+   
+    }
+    .sub-menu a{
+        color: orangered;
+        font-size: 16pt;
+        border-radius: 10px;
+    }
+    .sub-menu a:hover{
+        background-color: orangered;
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+    }

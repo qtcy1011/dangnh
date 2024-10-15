@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký tài khoản</title>
+    <style>
+        .form{
+            width: 400px;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px;
+        }
+    </style>
+</head>
+<body style="text-align: center;" background="img/bg.jfif">
+    <h1>Đăng ký tài khoản</h1>
+    <form action="#" method="post" enctype="multipart/form-data" class="form">
+        Họ và Tên: <br>
+        <input type="text"> <br>
+        Giới tính: <label for="">
+            <input type="radio" checked="checked" name="gender"> Nam
+        </label>
+        <label for="">
+            <input type="radio" name="gender"> Nữ
+        </label> <br>
+        Hình ảnh: <br>
+        <input type="file" value="Choose file"> <br>
+        Quốc tịch: <br>
+        <select name="list" id="list">
+            <option value="United State">United State</option>
+            <option value="Việt Nam">Việt Nam</option>
+            <option value="Trung Quốc">Trung Quốc</option>
+            <option value="Nga">Nga</option>
+        </select> <br>
+        Sở thích: <br>
+        <label for=""><input type="checkbox">Thể thao</label>
+        <label for=""><input type="checkbox">Du Lịcho</label>
+        <label for=""><input type="checkbox">Ẩm thực</label>
+        <label for=""><input type="checkbox">Âm nhạc</label> <br>
+
+        Ghi chú: <br>
+        <textarea name="Ghichu" id="" cols="50" rows="10"></textarea> <br>
+        <hr>
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại">
+    </form>
+</body>
+</html>
